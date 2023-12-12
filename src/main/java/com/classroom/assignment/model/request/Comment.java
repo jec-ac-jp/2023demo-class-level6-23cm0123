@@ -14,7 +14,9 @@ public class Comment {
 
   // ↓アノテーションを追加してください↓
 
+
   // ↑アノテーションを追加してください↑
+  @NotEmpty(message = "メールアドレスを入力してください")
   @Email(message = "メールアドレスの形式ではありません")
   private String mail;
 
